@@ -13,9 +13,9 @@ class Dog
     @breed = new_breed
   end
   def breed
-    if @breed == ""
-      Mutt
+    @breed
+    if new_breed == nil
+      returns "Mutt"
     end
-    
   end
 end
