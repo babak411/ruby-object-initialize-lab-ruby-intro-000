@@ -9,13 +9,10 @@ class Dog
   def name
     @name
   end
-  def breed=(new_breed)
-    @breed = new_breed
+  def breed=(Mutt)
+    @breed = Mutt
   end
   def breed
     @breed
-    if @breed == nil
-      returns "Mutt"
-    end
   end
 end
